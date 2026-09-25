@@ -1,2 +1,10 @@
-# my-first-dashboard
-My personal project template
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My First Dashboard</title>
+</head>
+<body>
+  <h1>Hello, world!</h1>
+  <p>This is my first GitHub Pages site.</p>
+</body>
+</html>
