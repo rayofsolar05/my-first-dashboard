@@ -1,49 +1,65 @@
+/* General reset */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  background: #f4f4f4;
+  font-family: Arial, sans-serif;
   color: #333;
 }
 
-h1 {
-  text-align: center;
-  margin-top: 2rem;
-  color: #4CAF50;
-}
-
-p {
-  text-align: center;
-  font-size: 1.2rem;
-}
-
+/* Header */
 header {
   background: #4CAF50;
   color: white;
-  padding: 1.5rem;
+  padding: 20px;
   text-align: center;
 }
 
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 2rem;
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
 }
 
+/* Cards */
 .card {
   background: white;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  margin: 1rem;
-  padding: 1.5rem;
-  width: 300px;
+  padding: 16px;
+  margin: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
+.card.yellow {
+  background: #fff9c4;
+}
+
+.card.green {
+  background: #c8e6c9;
+}
+
+.card.purple {
+  background: #e1bee7;
+}
+
+/* Footer */
 footer {
+  background: #000;
+  color: white;
   text-align: center;
-  padding: 1rem;
-  background: #222;
-  color: #eee;
+  padding: 10px;
 }
 
+/* Backgrounds for each page */
+body.food {
+  background: url("images/food-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
 
+body.time {
+  background: url("images/time-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.media {
+  background: url("images/media-bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
